@@ -7,8 +7,9 @@ namespace Arv
 	{
         private double weight;
 
-		public Horse()
+		public Horse(double weight)
 		{
+            this.weight = weight;
 		}
 
         public override void DoSound()

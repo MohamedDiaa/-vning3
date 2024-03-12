@@ -7,8 +7,9 @@ namespace Arv.Animals
     {
         private bool isPoisonous;
 
-        public Worm()
+        public Worm(bool isPoisonous)
 		{
+            this.isPoisonous = isPoisonous;
 		}
 
         public override void DoSound()

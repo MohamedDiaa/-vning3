@@ -9,8 +9,9 @@ namespace Arv.Animals
 	{
         private double wingSpan;
 
-        public Bird()
+        public Bird(double wingSpan)
 		{
+            this.wingSpan = wingSpan;
 		}
 
         public override void DoSound()

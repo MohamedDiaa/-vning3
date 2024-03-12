@@ -5,8 +5,9 @@ namespace Arv.Animals
 	{
         private string name;
 
-		public Dog()
+		public Dog(string name)
 		{
+            this.name = name;
 		}
 
         public override void DoSound()

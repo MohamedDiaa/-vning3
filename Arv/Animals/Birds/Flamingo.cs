@@ -8,8 +8,9 @@ namespace Arv.Animals.Birds
 
 		private string species;
 
-		public Flamingo()
+		public Flamingo(double wingSpan, string species): Bird(wingSpan: wingSpan)
 		{
+            this.species = species;
 		}
 
 

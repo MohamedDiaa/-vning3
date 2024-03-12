@@ -7,8 +7,9 @@ namespace Arv.Animals.Birds
     {
 		private double weight;
 
-		public Pelican()
+		public Pelican(double weight)
 		{
+            this.weight = weight;
 		}
 
         public override string Stats()

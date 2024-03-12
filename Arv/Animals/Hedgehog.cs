@@ -7,8 +7,9 @@ namespace Arv.Animals
 	{
         private int nrOfSpikes;
 
-        public Hedgehog()
+        public Hedgehog(int nrOfSpikes)
 		{
+            this.nrOfSpikes = nrOfSpikes;
 		}
 
         public override void DoSound()

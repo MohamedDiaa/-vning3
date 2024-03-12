@@ -7,8 +7,9 @@ namespace Arv.Animals.Birds
 	{
 		private string color;
 
-		public Swan()
+		public Swan(string color)
 		{
+            this.color = color;
 		}
 
         public override string Stats()
