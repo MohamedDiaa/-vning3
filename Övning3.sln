@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning3", "Övning3\Övnin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorfism", "Polymorfism\Polymorfism.csproj", "{D1399D72-69EE-40CB-B8B2-A236A238CEA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv", "Arv\Arv.csproj", "{0BAD01E5-2B1A-4A8B-BE0E-392FA62C8E53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D1399D72-69EE-40CB-B8B2-A236A238CEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1399D72-69EE-40CB-B8B2-A236A238CEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1399D72-69EE-40CB-B8B2-A236A238CEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAD01E5-2B1A-4A8B-BE0E-392FA62C8E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAD01E5-2B1A-4A8B-BE0E-392FA62C8E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAD01E5-2B1A-4A8B-BE0E-392FA62C8E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAD01E5-2B1A-4A8B-BE0E-392FA62C8E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
