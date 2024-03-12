@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml.Linq;
+
 namespace Arv.Animals.Birds
 {
 	public class Swan: Bird
@@ -8,6 +10,13 @@ namespace Arv.Animals.Birds
 		public Swan()
 		{
 		}
-	}
+
+        public override string Stats()
+        {
+            string baseString = base.Stats();
+
+            return $"{base.Stats}, color: {color}";
+        }
+    }
 }
 

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml.Linq;
+
 namespace Arv.Animals
 {
 	public class Worm: Animal
@@ -13,6 +15,13 @@ namespace Arv.Animals
         {
             Console.WriteLine("it sound like a worm");
 
+        }
+
+        public override string Stats()
+        {
+            string baseString = base.Stats();
+
+            return $"{base.Stats}, isPoisonous: {isPoisonous}";
         }
     }
 }
