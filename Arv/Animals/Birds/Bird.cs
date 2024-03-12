@@ -9,8 +9,8 @@ namespace Arv.Animals
 	{
         protected double wingSpan;
 
-        public Bird(double wingSpan)
-		{
+        public Bird(string namn, double vikt, double age,double wingSpan) : base(namn: namn, vikt: vikt, age: age)
+        {
             this.wingSpan = wingSpan;
 		}
 
@@ -24,7 +24,7 @@ namespace Arv.Animals
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, wingspan: {wingSpan}";
+            return $"{base.Stats()}, wingspan: {wingSpan}";
         }
     }
 }

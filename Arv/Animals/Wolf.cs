@@ -3,7 +3,7 @@ namespace Arv.Animals
 {
 	public class Wolf: Animal
 	{
-		public Wolf()
+		public Wolf(string namn, double vikt, double age): base(namn: namn, vikt: vikt,age:age)
 		{
 		}
 

@@ -3,11 +3,11 @@ namespace Arv.Animals
 {
 	public class Dog: Animal
 	{
-        private string name;
+        private string id;
 
-		public Dog(string name)
+		public Dog(string namn, double vikt, double age, string id) : base(namn: namn, vikt: vikt,age:age)
 		{
-            this.name = name;
+            this.id = id;
 		}
 
         public override void DoSound()
@@ -19,7 +19,7 @@ namespace Arv.Animals
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, name: {name}";
+            return $"{base.Stats()}, id: {id}";
         }
     }
 }

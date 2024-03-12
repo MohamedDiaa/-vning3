@@ -7,7 +7,7 @@ namespace Arv.Animals.Birds
 	{
 		private string color;
 
-		public Swan(double wingSpan, string color):  base(wingSpan: wingSpan)
+		public Swan(string namn, double vikt, double age,double wingSpan, string color) : base(namn: namn, vikt: vikt,age:age,wingSpan: wingSpan)
 		{
             this.color = color;
 		}
@@ -16,7 +16,7 @@ namespace Arv.Animals.Birds
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, color: {color}";
+            return $"{base.Stats()}, color: {color}";
         }
     }
 }

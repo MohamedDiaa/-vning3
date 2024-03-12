@@ -7,8 +7,8 @@ namespace Arv
 	{
         private double weight;
 
-		public Horse(double weight)
-		{
+        public Horse(string namn, double vikt, double age, double weight) : base(namn: namn, vikt: vikt, age: age)
+        {
             this.weight = weight;
 		}
 
@@ -21,7 +21,7 @@ namespace Arv
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, weight: {weight}";
+            return $"{base.Stats()}, weight: {weight}";
         }
     }
 }

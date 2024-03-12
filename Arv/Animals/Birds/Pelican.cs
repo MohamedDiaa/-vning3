@@ -7,7 +7,7 @@ namespace Arv.Animals.Birds
     {
 		private double weight;
 
-		public Pelican(double wingSpan, double weight): base(wingSpan: wingSpan)
+		public Pelican(string namn, double vikt, double age,double wingSpan, double weight) : base(namn: namn, vikt: vikt,age:age,wingSpan: wingSpan)
 		{            
             this.weight = weight;
 		}
@@ -16,7 +16,7 @@ namespace Arv.Animals.Birds
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, weight: {weight}";
+            return $"{base.Stats()}, weight: {weight}";
         }
     }
 }

@@ -7,8 +7,8 @@ namespace Arv.Animals
 	{
         private int nrOfSpikes;
 
-        public Hedgehog(int nrOfSpikes)
-		{
+        public Hedgehog(string namn, double vikt, double age, int nrOfSpikes) : base(namn: namn, vikt: vikt, age: age)
+        {
             this.nrOfSpikes = nrOfSpikes;
 		}
 
@@ -21,7 +21,7 @@ namespace Arv.Animals
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, number of spikes: {nrOfSpikes}";
+            return $"{base.Stats()}, number of spikes: {nrOfSpikes}";
         }
     }
 }

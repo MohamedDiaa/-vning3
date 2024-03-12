@@ -3,8 +3,8 @@ namespace Arv.Animals
 {
 	public class Wolfman: Wolf, IPerson
 	{
-		public Wolfman()
-		{
+		public Wolfman(string namn, double vikt, double age) : base(namn: namn, vikt: vikt, age: age)
+        {
 		}
 
         public void Talk()

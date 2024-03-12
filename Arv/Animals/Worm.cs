@@ -7,8 +7,8 @@ namespace Arv.Animals
     {
         private bool isPoisonous;
 
-        public Worm(bool isPoisonous)
-		{
+        public Worm(string namn, double vikt, double age,bool isPoisonous) : base(namn: namn, vikt: vikt, age: age)
+        {
             this.isPoisonous = isPoisonous;
 		}
 
@@ -22,7 +22,7 @@ namespace Arv.Animals
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, isPoisonous: {isPoisonous}";
+            return $"{base.Stats()}, isPoisonous: {isPoisonous}";
         }
     }
 }

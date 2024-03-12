@@ -8,7 +8,8 @@ namespace Arv.Animals.Birds
 
 		private string species;
 
-		public Flamingo(double wingSpan, string species): base(wingSpan: wingSpan)
+       
+		public Flamingo(string namn, double vikt, double age,double wingSpan, string species) : base(namn: namn, vikt: vikt,age:age,wingSpan: wingSpan)
 		{
             this.species = species;
 		}
@@ -18,7 +19,7 @@ namespace Arv.Animals.Birds
         {
             string baseString = base.Stats();
 
-            return $"{base.Stats}, species: {species}";
+            return $"{base.Stats()}, species: {species}";
         }
     }
 }
