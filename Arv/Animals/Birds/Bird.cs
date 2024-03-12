@@ -7,7 +7,7 @@ namespace Arv.Animals
 
     public class Bird: Animal
 	{
-        private double wingSpan;
+        protected double wingSpan;
 
         public Bird(double wingSpan)
 		{

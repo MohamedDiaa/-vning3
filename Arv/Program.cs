@@ -36,14 +36,15 @@ class Program
                 ((IPerson)animal).Talk();
             }
 
+            Console.WriteLine("");
         }
 
         //9. F: Försök att lägga till en häst i listan av hundar. Varför fungerar inte det?
         // Because not same type
         // Argument 1: cannot convert from 'Arv.Horse' to 'Arv.Animals.Dog' (CS1503) (Arv)
         List<Dog> dogs = new List<Dog> {
-            new Dog(),
-            new Dog(),
+            new Dog(name: "boxer"),
+            new Dog(name: "elkbeer"),
           //  new Horse()
         };
 

@@ -7,8 +7,8 @@ namespace Arv.Animals.Birds
     {
 		private double weight;
 
-		public Pelican(double weight)
-		{
+		public Pelican(double wingSpan, double weight): base(wingSpan: wingSpan)
+		{            
             this.weight = weight;
 		}
 
